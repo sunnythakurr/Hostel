@@ -55,7 +55,7 @@ footer{
         text-align: justify;
     }
     .tile-image{
-        width: 100%;
+        width: 280px;
         display: inline;
         object-fit: cover;
     }
