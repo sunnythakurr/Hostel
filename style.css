@@ -30,6 +30,7 @@ h1{
     width: 300px;
     float: left;
     margin-right: 50px;
+    
 }
 footer{
     text-align: right;
@@ -41,10 +42,11 @@ footer{
 
 @media(max-width:680px){
     h1{
-        font-size: 3.5rem;
+        font-size: 3rem;
+        text-align: center;
     }
     div{
-        width: 90%;
+        width: 80%;
     }
     .card{
         width: 100%;
@@ -53,8 +55,9 @@ footer{
         text-align: justify;
     }
     .tile-image{
-        width: 400px;
-        margin-right: 50px;
+        width: 100%;
+        display: inline;
+        object-fit: cover;
     }
     .navigation{
         font-size: .5rem;
