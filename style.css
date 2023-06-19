@@ -43,6 +43,9 @@ footer{
     h1{
         font-size: 3.5rem;
     }
+    div{
+        width: 90%;
+    }
     .card{
         width: 100%;
         display: block;
@@ -51,6 +54,7 @@ footer{
     }
     .tile-image{
         width: 400px;
+        margin-right: 50px;
     }
     .navigation{
         font-size: .5rem;
